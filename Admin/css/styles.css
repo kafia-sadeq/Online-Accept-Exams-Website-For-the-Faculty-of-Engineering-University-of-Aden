@@ -1,0 +1,115 @@
+body{
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 16px;
+    padding-bottom: 0px;
+    margin: 0px;
+    color: #000;
+    padding-top: 0px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+.card{
+  margin:15px;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+ol {
+  list-style-type: none;
+}
+/* Start Registration pag*/
+.custom-alert{
+  padding: 5px 10px;
+  display: none;
+}
+/* End  Registration pag*/
+
+.Nav2{
+  margin: 10px 0;
+  background-color:#007bff;
+  padding: 8px 16px;
+}
+.p-exam{
+  border-bottom: 2px solid #000;
+  color:#007bff;
+  max-width: 500px;
+  margin-top:30px;
+  font-size: 25px;
+  margin-left: 20px;
+}
+.p-exam p{
+  margin-bottom: 0;
+}
+/*Header Area */
+.Header-area{
+  background-color: #008000;
+  height: 50px;
+  /* padding: 20px; */
+  padding: 10px;
+  color: white;
+  text-transform: capitalize;
+}
+.footer-area{
+  background-color: #008000;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+.container-search{
+  background-color: red;
+}
+
+#topwrap{
+  background-position: right bottom;
+    min-height: 22px;
+    background-color: #0F1938 !important;
+    overflow: hidden;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #FFFF
+}
+#headerwrapper{
+    background-color: #000000 !important;
+    background-image: linear-gradient(to bottom, #192B5F, #0F1938) !important;
+    min-height: 66px;
+    overflow: hidden;
+    width: 100%;
+}
+#headercontent{
+    background-position: right top;
+    margin: 0px auto;
+    width: 791px;
+    position: relative;
+    height: 100px;
+  background-image: url('../image/logo_ub.gif');
+}
+/*End Header Area*/
+/*Begin Content Area */
+.link-transform{
+  background-color: #162655;
+}
+/* End Content Area*/
+/*Start Exam pag*/
+.navbar-brand{
+  color:white
+}
+/* Start Modal*/
+#button_action{
+ max-width: 60px;
+    
+}
+nav{
+  background-color:#f7f7f7 ;
+}
+/* End Modal*/
+/*End Exam page*/
+
+.modal-open .modal {
+  overflow-x: hidden; 
+  overflow-y: auto;
+  background-color: #77ff9494;
+}

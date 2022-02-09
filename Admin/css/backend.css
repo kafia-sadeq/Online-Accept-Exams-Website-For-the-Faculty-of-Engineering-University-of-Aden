@@ -1,0 +1,258 @@
+body{
+    background-color:#f4f4f4;
+    font-size:16px;
+}
+.Main_Massage {
+    background-color:#fff;
+    margin: 20px 0;
+    font-size:20px;
+   padding: 10px 30px;
+    max-width: 500px;
+    border-left:5px solid #9800ff;
+}
+
+/*Start login form*/
+a{
+    text-decoration: none;
+    color:#fff;
+}
+ul{
+      list-style-type: none;  
+}
+
+a:hover{
+    text-decoration: none;
+    color:#fff;
+}
+
+.login{
+    width:300px;
+    margin:100px auto;
+}
+.login input{
+    margin-bottom: 10px;
+}
+.login .form-control{
+    background-color:#EAEAEAE;
+}
+.login h4{
+    color: #888;
+}
+
+.form-control {
+    position: relative;
+}
+.asteric{
+    position: absolute;
+    right: 30px;
+    font-weight: bolder;
+    top: 15px;
+    color: #b33333;
+    font-size: 30px;
+}
+/*End login form*/
+/*START Bootstrap Edits*/
+ .navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.dropdown-menu
+{
+    background-color: #2196f3;
+    
+}
+.dropdown-menu{
+    border-radius:none;
+    border:none;
+    min-width: 180px;
+    font-size:1em;
+    color:#fff;
+    margin:0;
+    padding:0;
+}
+.dropdown-menu>li>a{
+    color:#fff;
+    padding: 8px 25px;
+}
+ .dropdown-menu > li >a:hover {
+    color:#fff;
+    text-decoration: none;
+     background-color: #8e44ad;
+}
+h1{
+    color:#888;
+    font-size:55px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+/*End Bootstrap Edits*/
+/*Member page Start*/
+.min-tabel tr:first-child td{
+    background-color: #333;
+    color:#fff;
+}
+.min-tabel td{
+    background-color: white;
+}
+.table>tbody>tr>td{
+    background-color:white;
+    vertical-align: middle;
+}
+/*Member page End*/
+/*///////////////////////start dasbord*/
+.states{
+    padding: 20px;
+    font-size:15px;
+    color:#fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.heading{
+     font-weight: 500;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #212120;
+    }   
+
+
+
+.states span{
+    display:block;
+    font-size: 60px;
+}
+.lastes{
+        margin-top: 30px;
+       
+}
+.st-members{
+    background-color:#a92552;
+}
+
+.st-pending {
+    background-color: #843492;
+}
+.st-items{
+    background-color: #c33b69;
+}
+.st-comments{
+    background-color: #8341f9;
+}
+.Activates{
+    margin-left: 10px;
+}
+.showLastUser li:nth-child(odd){
+    background-color: #f4f4f4;
+}
+.showLastUser li{
+overflow: hidden;
+margin: 5px 0;
+padding: 10px 8px;
+border-radius: 5px;
+color: black;
+}
+.showLastItems li:nth-child(odd){
+    background-color: #f4f4f4;
+}
+.showLastItems li{
+
+overflow: hidden;
+padding: 10px 8px;
+margin: 5px 0;
+border-radius: 5px;
+color:#000;
+
+
+}
+.comments-box{
+    display: flex
+}
+.Comments_c {
+    background-color: #f4f4f4;
+    padding: 10px 8px;
+    margin-left: 10px;
+    position:relative
+}
+
+/*-----  Start Categories   -------------*/
+.categores hr{
+    border-top: 2px dashed #ccc;
+}
+.categores :last-of-type~ hr{
+    display: none;
+    
+}
+.categores .cate span{
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0px 5px;
+    color: #fff;
+}
+.categores .cate .clas_ording{
+    background-color:#7049b5; 
+}
+.categores .cate .clas_visi{
+    background-color: red;
+}
+.categores .cate .clas_omm{
+    background-color: #9953a5;
+}
+.categores .cate .clas_Ads{
+    background-color: #da00ff;
+}
+.categores .cate h3{
+    margin:0;
+}
+.categores .panel-heading{
+   background-color: #101010;
+    color: #ccc;
+    font-weight: blod;
+    font-size: 20px;
+}
+.categores .cate {
+    position:relative;
+}
+.categores .cate .holding-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.categores .cate .holding-btn .btn-success{
+    margin-right: 5px;
+    
+}
+.show-user{
+    position:relative;
+}
+.show-user .btn-success  {
+    position: absolute;
+    right: 5px;
+    top: 8px;
+}
+}
+.show-user .btn-success :hover{
+    position: absolute;
+    right: 5px;
+    top: 8px;
+}
+.all-right{
+   float: right; 
+}
+.activate{
+  color:  #710909
+}
+/*-----  End  Categories   -------------*/
+
+
+
+
+
+
+
+
+
+
